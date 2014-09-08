@@ -10,7 +10,6 @@ before_install:
     - "tar -xzvf nltk_data.tar.gz -C ~"
 # Install dependencies
 
-
 install:
     - "pip install numpy"
     - "pip install -U ."
@@ -24,7 +23,7 @@ script:
 notifications:
      email:
          recipients:
-             - vidyac.raghav@gmail.com
-             - buildsampletest@gmail.com
+             #- vidyac.raghav@gmail.com
+             - chandrakanth@shippable.com
          on_success: always
          on_failure: change
